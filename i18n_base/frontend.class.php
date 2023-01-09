@@ -21,7 +21,7 @@ class I18nFrontend {
         self::$languages[] = $_COOKIE[I18N_LANGUAGE_COOKIE];
       }
       if (!defined('I18N_IGNORE_USER_LANGUAGE') || !I18N_IGNORE_USER_LANGUAGE) {
-        $httplanguages = explode(",", @$_SERVER['HTTP_ACCEPT_LANGUAGE']);
+        $httplanguages = explode(",", @$_SERVER['HTTP_ACCEPT_LANGUAGE']??'');
         foreach ($httplanguages as $language) {
           $language = substr($language,0,2);
           if (!in_array($language,self::$languages)) self::$languages[] = $language;
