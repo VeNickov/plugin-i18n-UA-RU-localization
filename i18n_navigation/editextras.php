@@ -6,7 +6,7 @@
 <?php
   $pages = return_i18n_pages();
   # tags
-  $tags = [];
+  $tags = array();
   foreach ($pages as $page) {
   	if (isset($page['tags'])) {
 	    foreach (preg_split('/\s*,\s*/', trim($page['tags'])) as $t) $tags[$t] = true;
