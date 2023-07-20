@@ -40,9 +40,9 @@ class I18nBackend {
 ?>  
       <link rel="stylesheet" href="<?php echo $SITEURL ?>plugins/i18n_base/css/jquery.autocomplete.css" type="text/css" charset="utf-8" />
       <style type="text/css">
-        #editpages tr.invisible, #editpages tr.nomatch { display: none; }
-        #editpages tr.invisible.match { display: table-row; }
-        #editpages tr.invisible.match a.title { color: gray; }
+        #editpages  tbody > tr.invisible, #editpages tr.nomatch { display: none; }
+        #editpages   tbody > tr.invisible.match { display: table-row; }
+        #editpages   tbody > tr.invisible.match a.title { color: gray; }
       </style>
       <script type="text/javascript" src="<?php echo $SITEURL ?>plugins/i18n_base/js/jquery.autocomplete.min.js"></script>
 <?php

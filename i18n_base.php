@@ -89,8 +89,8 @@ i18n_load_texts('i18n_base');
 # register plugin
 register_plugin(
 	$thisfile, 
-	'I18N Base', 	
-	'3.3.2', 		
+	'I18N Base (CE)', 	
+	'3.3.2.1', 		
 	'Martin Vlcek',
 	'http://mvlcek.bplaced.net', 
 	i18n_r('i18n_base/PLUGIN_DESCRIPTION'),

@@ -92,8 +92,8 @@ if (function_exists('i18n_load_texts')) {
 # register plugin
 register_plugin(
 	$thisfile, 
-	'I18N Navigation', 	
-	'3.3.2', 		
+	'I18N Navigation (CE)', 	
+	'3.3.2.1', 		
 	'Martin Vlcek',
 	'http://mvlcek.bplaced.net', 
 	i18n_r('i18n_navigation/PLUGIN_DESCRIPTION'),
