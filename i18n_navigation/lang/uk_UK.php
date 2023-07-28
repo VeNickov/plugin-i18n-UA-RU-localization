@@ -1,4 +1,5 @@
 <?php
+// Translated by Venick: https://github.com/VeNickov/
 $i18n = array(
     'NAVIGATION' => "Структура меню",
     'EDIT_NAVIGATION' => "Редагувати структуру меню",
