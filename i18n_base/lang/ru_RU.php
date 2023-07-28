@@ -1,4 +1,5 @@
 <?php
+// Translated by Venick: https://github.com/VeNickov/
 $i18n = array(
     'PAGES' => "Показать все страницы (I18N)",
     'NEW_LANGUAGE_DESCR' => "Если вы хотите добавить новый язык, просто создайте страницу с slug/URL заканчивающимся подчеркиванием и кодом языка (например, \"index_en\"  для страниц на английском).",
